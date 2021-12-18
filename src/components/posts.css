@@ -1,0 +1,20 @@
+.posts{
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    width: 50%;
+    gap: 10px;
+    border: 1px solid gray;
+}
+.posts >div{
+    border-bottom: 0.5px dotted black;
+    padding: 10px;
+
+}
+
+.posts >button{
+    border: 1px solid dotted;
+    padding: 10px;
+}
+
+
